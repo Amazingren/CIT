@@ -64,4 +64,17 @@ The pre-trained models are directly provided in this project (./checkpoints).
 Just run the same step as Evaluation to test/inference our model.
 
 ## Acknowledgements
-This source code is inspired by [CP-VTON](https://github.com/sergeywong/cp-vton), [CP-VTON+](https://github.com/minar09/cp-vton-plus), and [XingGAN](https://github.com/Ha0Tang/XingGAN).
+This source code is inspired by [CP-VTON](https://github.com/sergeywong/cp-vton), [CP-VTON+](https://github.com/minar09/cp-vton-plus).
+
+## Citation
+If you use this code for your research, please consider giving a star :star: and citing our [paper](https://arxiv.org/abs/2104.05519) :t-rex::
+
+CIT
+```
+@article{ren2021cloth,
+  title={Cloth Interactive Transformer for Virtual Try-On},
+  author={Ren, Bin and Tang, Hao and Meng, Fanyang and Ding, Runwei and Shao, Ling and Torr, Philip HS and Sebe, Nicu},
+  journal={arXiv preprint arXiv:2104.05519},
+  year={2021}
+}
+```
