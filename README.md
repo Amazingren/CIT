@@ -73,7 +73,7 @@ The pre-trained models are directly provided in this project (./checkpoints).
 Just run the same step as Evaluation to test/inference our model.
 
 ## Acknowledgements
-This source code is inspired by [CP-VTON](https://github.com/sergeywong/cp-vton), [CP-VTON+](https://github.com/minar09/cp-vton-plus).
+This source code is inspired by [CP-VTON](https://github.com/sergeywong/cp-vton), [CP-VTON+](https://github.com/minar09/cp-vton-plus). We are extremely grateful for their public implementation.
 
 ## Citation
 If you use this code for your research, please consider giving a star :star: and citing our [paper](https://arxiv.org/abs/2104.05519) :t-rex::
