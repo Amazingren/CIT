@@ -10,5 +10,15 @@
 <sup>6</sup>Huawei Research Ireland, Ireland.<br>
 
 The repository offers the official implementation of our paper in PyTorch.
+The code and pre-trained models are tested with pytorch 0.4.1, torchvision 0.2.1, opencv-python 4.1, and pillow 5.4 (Python 3.6).
 
-We will release the code later...
+
+
+## Usage
+
+
+## Installation
+This implementation is built and tested in PyTorch 0.4.1.
+Pytorch and torchvision are recommended to install with conda: `conda install pytorch=0.4.1 torchvision=0.2.1 -c pytorch`
+
+For all packages, run `pip install -r requirements.txt`
