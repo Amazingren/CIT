@@ -78,3 +78,7 @@ CIT
   year={2021}
 }
 ```
+
+
+## Contributions
+If you have any questions/comments/bug reports, feel free to open a github issue or pull a request or e-mail to the author Bin Ren ([sunshineren@pku.edu.cn](sunshineren@pku.edu.cn)).
