@@ -15,7 +15,16 @@ The code and pre-trained models are tested with pytorch 0.4.1, torchvision 0.2.1
 
 
 ## Usage
+This pipeline is a combination of consecutive training and testing of Cloth Interactive Transformer (CIT) Matching block based GMM and CIT Reasoning block based TOM. GMM generates the warped clothes according to the target human. Then, TOM blends the warped clothes outputs from GMM into the target human properties, to generate the final try-on output.
 
+1) Install the requirements
+2) Download/Prepare the dataset
+3) Train the CIT Matching block based GMM network
+4) Get warped clothes for training set with trained GMM network, and copy warped clothes & masks inside `data/train` directory
+5) Train the CIT Reasoning block based TOM network
+6) Test CIT Matching block based GMM for testing set
+7) Get warped clothes for testing set, copy warped clothes & masks inside `data/test` directory
+8) Test CIT Reasoning block based TOM testing set
 
 ## Installation
 This implementation is built and tested in PyTorch 0.4.1.
