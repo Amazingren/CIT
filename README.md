@@ -69,8 +69,8 @@ Then the original target human image is used as the reference image, accompanied
 - Step2: Run ```python metrics/getIS.py```
 
 ## Inference
-The pre-trained models are directly provided in this project (./checkpoints).
-Just run the same step as Evaluation to test/inference our model.
+The pre-trained models are provided [here](xxx). Download the pre-trained models and put them in this project (./checkpoints)
+Then just run the same step as Evaluation to test/inference our model.
 
 ## Acknowledgements
 This source code is inspired by [CP-VTON](https://github.com/sergeywong/cp-vton), [CP-VTON+](https://github.com/minar09/cp-vton-plus). We are extremely grateful for their public implementation.
