@@ -12,7 +12,7 @@
 The repository offers the official implementation of our paper in PyTorch.
 The code and pre-trained models are tested with pytorch 0.4.1, torchvision 0.2.1, opencv-python 4.1, and pillow 5.4 (Python 3.6).
 
-
+In the meantime, check out our recent paper [XingGAN](https://github.com/Ha0Tang/XingGAN) and [XingVTON](https://github.com/Ha0Tang/XingVTON).
 
 ## Usage
 This pipeline is a combination of consecutive training and testing of Cloth Interactive Transformer (CIT) Matching block based GMM and CIT Reasoning block based TOM. GMM generates the warped clothes according to the target human. Then, TOM blends the warped clothes outputs from GMM into the target human properties, to generate the final try-on output.
