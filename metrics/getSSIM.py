@@ -46,10 +46,6 @@ def test(generated_IMG_dir, reference_IMG_dir):
 
 if __name__ == "__main__":
     generated_images_dir = '/home/data/try-on/GMM/0309_03/result/TOM/test/try-on'
-    #generated_images_dir = '/home/data/try-on/ACGPN/results/test/try-on'
     reference_images_dir = '/home/data/try-on/GMM/0309_03/data/test/image'
-    #reference_images_dir = '/home/data/try-on/ACGPN/Data_preprocessing/test_img'
-    #reference_images_dir = '/home/data/try-on/cp-vton_Plus/result/GMM/test/overlayed_TPS'
-
 
     test(generated_images_dir, reference_images_dir)
