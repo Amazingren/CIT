@@ -4,3 +4,5 @@ tensorboardX
 pillow==5.4
 numpy
 opencv-contrib-python
+scikit-image
+sklearn
