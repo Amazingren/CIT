@@ -199,7 +199,6 @@ class FeatureCorrelation(nn.Module):
 
         return correlation_tensor
 
-
 class FeatureRegression(nn.Module):
     def __init__(self, input_nc=512, output_dim=6, use_cuda=True):
         super(FeatureRegression, self).__init__()
