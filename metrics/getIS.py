@@ -19,6 +19,5 @@ def test(generated_IMG_dir):
 
 
 if __name__ == "__main__":
-    generated_images_dir = '/home/data/try-on/GMM/0309_03/result/TOM/test/try-on'
-    #generated_images_dir = '/home/data/try-on/GMM/0309_03/result_ours1/TOM/test/try-on'
+    generated_images_dir = '/path to your CIT foder/result/TOM/test/try-on'
     test(generated_images_dir)
