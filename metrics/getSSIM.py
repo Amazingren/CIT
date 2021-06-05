@@ -45,7 +45,7 @@ def test(generated_IMG_dir, reference_IMG_dir):
 
 
 if __name__ == "__main__":
-    generated_images_dir = '/home/data/try-on/GMM/0309_03/result/TOM/test/try-on'
-    reference_images_dir = '/home/data/try-on/GMM/0309_03/data/test/image'
+    generated_images_dir = '/path to your CIT foder/result/TOM/test/try-on'
+    reference_images_dir = '/path to your CIT foder/data/test/image'
 
     test(generated_images_dir, reference_images_dir)
