@@ -38,13 +38,13 @@ def test(warpedMask_dir, mask_onPerson_dir):
 		mask_onPerson_imgs.append(imgOP)
 
 	print("######JS######")
-	Final_iou_score = JS_score(warpedMask_imgs, mask_onPerson_imgs)
+	Final_JS_score = JS_score(warpedMask_imgs, mask_onPerson_imgs)
 	print("JS: %s " % Final_JS_score)
 
 
 if __name__ == "__main__":
-	warpedMask_dir = '/home/data/try-on/cp-vton_Plus/result/GMM/test/warp-mask'
-	mask_onPerson_dir = '/home/data/try-on/cp-vton_Plus/result/GMM/test/pcm'
+	warpedMask_dir = '/path to your CIT foder/result/GMM/test/warp-mask'
+	mask_onPerson_dir = '/path to your CIT foder/result/GMM/test/pcm'
 	
 	test(warpedMask_dir, mask_onPerson_dir)
 
