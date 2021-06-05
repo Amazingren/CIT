@@ -19,6 +19,8 @@
 The repository offers the official implementation of our paper in PyTorch.
 The code and pre-trained models are tested with pytorch 0.4.1, torchvision 0.2.1, opencv-python 4.1, and pillow 5.4 (Python 3.6).
 
+:t-rex:News We have update the pre-trained model(June 5th, 2021)!
+
 In the meantime, check out our recent paper [XingGAN](https://github.com/Ha0Tang/XingGAN) and [XingVTON](https://github.com/Ha0Tang/XingVTON).
 
 ## Usage
