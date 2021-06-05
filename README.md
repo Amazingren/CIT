@@ -76,7 +76,7 @@ Then the original target human image is used as the reference image, accompanied
 - Step2: Run ```python metrics/getIS.py```
 
 ## Inference
-The pre-trained models are provided [here](xxx). Download the pre-trained models and put them in this project (./checkpoints)
+The pre-trained models are provided [here](https://drive.google.com/drive/folders/12SAalfaQ--osAIIEh-qE5TLOP_kJmIP8?usp=sharing). Download the pre-trained models and put them in this project (./checkpoints)
 Then just run the same step as Evaluation to test/inference our model.
 
 ## Acknowledgements
